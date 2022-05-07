@@ -1,17 +1,34 @@
+@font-face {
+    font-family: Didot;
+    src: url(Didot.otf);
+}
+
+@font-face {
+    font-family: Helvetica;
+    src: url(Helvetica.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
 }
 
-.container img {
-    width: 100%;
-    height: auto;
-    z-index: -1;
+.container .banner {
     position: relative;
+    height: 10%;
+    /* background-color: red; */
+
 }
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 620px;
+}
+
 nav {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     color: white;
     width: 100%;
     height: 60px;
@@ -20,70 +37,86 @@ nav {
     top: 0;
 }
 
-.image{
+.spring {
     position: absolute;
-    top: 0;
+    width: 100%;
+    /* background-color: blue; */
+    /* text-align: center; */
+    top: 70%;
+
 }
-.menu,.cart {
- font-size: xx-large;
-}
-.spring{
+
+.text, .collection, .button {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    position: absolute;
-    bottom: 30%;
-}
-.spring h5{
-    font-family:Didot;
-    
-}
-.items{
-    display: flex;
     justify-content: center;
-    flex-flow: row wrap;
+    text-align: center;
+}
+
+.menu, .cart {
+    font-size: xx-large;
+}
+
+.fotter {
     position: relative;
-    bottom: 90px;
+    background-color: #f6f6f6;
+    color: #4f4f4f;
+    margin-left: 20px;
+}
 
+.contact h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.items .sunglass img{
+
+.calls {
+    display: flex;
     width: 100%;
+    height: fit-content;
+    justify-content: space-evenly;
 }
-.items .jackets img{
-    width: 100%;
-    padding-left:20px ;
+
+.calls h3 {
+    font-family: Helvetica;
 }
-.main{
+
+.grid {
     display: grid;
-    background-color: blue;
-    grid-template-columns: 20px 60px 20px;
-    grid-template-rows: 100px 100px 100px;
-}
-.menu{
-    column-gap: 10px;
+    font-family: Helvetica;
+    /* grid-template-columns: 0.9fr 2fr 0.9fr; */
+    /* grid-template-rows: auto; */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@font-face{
-    font-family: Didot;
-    src: url(Didot.otf);
+.one {
+    /* background-color: aqua;
+    border: 2px solid red; */
+    grid-column: span 2;
 }
 
+.two {
+    /* background-color: rgb(17, 0, 255);
+    border: 2px solid red; */
+    grid-column: span 3;
+}
 
+.two h3 {
+    line-height: 1.6;
+    margin-right: 40px;
+}
 
+.three {
+    /* background-color: rgb(145, 255, 0);
+    border: 2px solid red; */
+    grid-column: span 2;
+    font-size: xx-large;
+margin-top: 30px;
+}
+@media screen and (max-width:750px) {
+    .calls {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+}
