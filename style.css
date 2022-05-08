@@ -217,8 +217,17 @@
     .card-container {
         bottom: 20px;
     }
-
+    .spring{
+        bottom: 40px;
+    }
+}
+@media screen and (max-width:850px) {
+    .spring p {
+    font-size: 50px;
+    }
+}
+    @media screen and (max-width:450px) {
     .spring {
-        bottom: 50px;
+        bottom: 20px;
     }
 }
