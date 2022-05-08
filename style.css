@@ -13,11 +13,12 @@
     padding: 0;
 }
 
-.container{
+.container {
     position: relative;
     width: 100%;
 }
-.items{
+
+.items {
     position: absolute;
     width: 100%;
     top: 0;
@@ -26,7 +27,8 @@
     color: #f6f6f6;
     margin-top: 20px;
 }
-.spring{
+
+.spring {
     position: absolute;
     width: 100%;
     bottom: 150px;
@@ -35,18 +37,19 @@
     align-items: center;
 }
 
+
 .card-container {
     position: relative;
     width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    bottom: 80px;
 }
 
 .card {
     position: relative;
     margin: 10px;
-    bottom: 100px;
 }
 
 .card-body {
@@ -139,5 +142,14 @@
     .calls {
         flex-direction: column;
         justify-content: flex-start;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .card-container {
+        bottom: 20px;
+    }
+    .spring{
+        bottom: 50px;
     }
 }
