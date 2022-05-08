@@ -4,7 +4,7 @@
 }
 
 @font-face {
-    font-family: Helvetica;
+    font-family: myfont;
     src: url(Helvetica.ttf);
 }
 
@@ -27,6 +27,9 @@
     color: #f6f6f6;
     margin-top: 20px;
 }
+.items i{
+  font-size: x-large
+}
 
 .spring {
     position: absolute;
@@ -37,6 +40,35 @@
     align-items: center;
 }
 
+.spring p {
+    font-family: Didot;
+    font-style: italic;
+    font-size: 100px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.spring h2 {
+    font-family: myfont;
+    color: white;
+    font-weight: 900;
+    font-size: x-large;
+    text-shadow: 2px 1px black;
+
+}
+
+.spring button {
+    width: 270px;
+    height: 40px;
+    text-transform: capitalize;
+    border: 2px solid white;
+    cursor: pointer;
+    color: white;
+    background: black;
+    font-weight: bold;
+    font-size: large;
+    margin-top: 10px;
+}
 
 .card-container {
     position: relative;
@@ -57,7 +89,7 @@
     width: 100%;
     bottom: 30px;
     text-align: center;
-    font-family: Helvetica;
+    font-weight: bold;
     color: white;
     font-size: 20px;
     font-weight: bold;
@@ -73,10 +105,39 @@
     cursor: pointer;
     color: white;
     background: rgba(0, 0, 0, 0.349);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: myfont;
     font-weight: bold;
     font-size: large;
     margin-top: 10px;
+
+}
+.card-body h2{
+    font-family: myfont;
+    font-size: xx-large;
+    font-weight:bolder;
+    text-shadow: 2px 1px black;
+
+}
+
+.products {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.bag {
+    float: left;
+    text-align: center;
+    font-family: myfont;
+}
+
+.jacket_switter {
+    margin: 20px;
+    text-align: center;
+    font-family: myfont;
 
 }
 
@@ -84,12 +145,16 @@
     position: relative;
     background-color: #f6f6f6;
     color: #4f4f4f;
-    margin-left: 20px;
+    margin-left: 50px;
+  margin-right: 50px;
+    margin-top: 100px;
 }
 
-.contact h1 {
+.contact p {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: myfont;
+    font-size: large;
+    font-weight: 900;
 }
 
 .calls {
@@ -100,12 +165,12 @@
 }
 
 .calls h3 {
-    font-family: Helvetica;
+    font-family: myfont;
 }
 
 .grid {
     display: grid;
-    font-family: Helvetica;
+    font-family: myfont;
     /* grid-template-columns: 0.9fr 2fr 0.9fr; */
     /* grid-template-rows: auto; */
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -127,6 +192,7 @@
 .two h3 {
     line-height: 1.6;
     margin-right: 40px;
+  color: #444444;
 }
 
 .three {
@@ -136,7 +202,9 @@
     font-size: xx-large;
     margin-top: 30px;
 }
-
+.power{
+    margin-bottom: 500px;
+}
 
 @media screen and (max-width:750px) {
     .calls {
@@ -149,7 +217,8 @@
     .card-container {
         bottom: 20px;
     }
-    .spring{
+
+    .spring {
         bottom: 50px;
     }
 }
