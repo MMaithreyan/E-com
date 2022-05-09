@@ -1,11 +1,11 @@
 @font-face {
     font-family: Didot;
-    src: url(Didot.otf);
+    src: url(didot.otf);
 }
 
 @font-face {
     font-family: myfont;
-    src: url(Helvetica.ttf);
+    src: url(helvetica.ttf);
 }
 
 * {
