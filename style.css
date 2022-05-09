@@ -146,6 +146,10 @@
     font-family: myfont;
 
 }
+.hero,.sunglass,.jacket,.bag,.shirt,.swittter{
+    width: 100%;
+    height: auto;
+}
 
 .fotter {
     position: relative;
