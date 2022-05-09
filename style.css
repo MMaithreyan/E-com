@@ -1,6 +1,6 @@
 @font-face {
     font-family: Didot;
-    src: url(didot.otf);
+    src: url(didot.ttf);
 }
 
 @font-face {
@@ -30,7 +30,9 @@
 .items i{
   font-size: x-large
 }
-
+.springs{
+    position: relative;
+}
 .spring {
     position: absolute;
     width: 100%;
