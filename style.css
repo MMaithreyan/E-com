@@ -1,12 +1,12 @@
-/* @font-face {
+@font-face {
     font-family: Didot;
-    src: url(didot.ttf);
+    src: url(/fonts/didot.ttf);
 }
 
 @font-face {
     font-family: myfont;
-    src: url(helvetica.ttf);
-} */
+    src: url(/fonts/helvetica.ttf);
+}
 
 * {
     margin: 0;
