@@ -31,7 +31,6 @@
 .items i {
     font-size: x-large
 }
-
 .springs {
     position: relative;
 }
@@ -63,8 +62,8 @@
 }
 
 .spring button {
-    width: 270px;
-    height: 40px;
+    width: fit-content;
+    height: auto;
     text-transform: capitalize;
     border: 2px solid white;
     cursor: pointer;
@@ -73,6 +72,7 @@
     font-weight: bold;
     font-size: large;
     margin-top: 10px;
+    padding: 10px;
 }
 
 .card-container {
@@ -136,8 +136,15 @@
 
 .bag {
     float: left;
+    width: auto;
     text-align: center;
     font-family: myfont;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bag img{
+    width: 100%;
 }
 
 .jacket_switter {
@@ -146,16 +153,8 @@
     font-family: myfont;
 
 }
-.hero,.sunglass,.jacket,.bag,.shirt,.swittter{
+.hero,.sunglass,.jacket{
     width: 100%;
-    height: auto;
-}
-.bag{
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
 }
 
 .fotter {
