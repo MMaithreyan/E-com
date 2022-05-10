@@ -199,7 +199,7 @@
     margin: auto;
 }
 
-.fotter_comtainer {
+.fotter_container {
     margin: auto;
     width: 80vw;
 }
@@ -296,6 +296,13 @@
 
 .power {
     margin-bottom: 50px;
+    font-family: "regular";
+   
+}
+.fotter_hr{
+position: absolute;
+width: 100vw;
+left: 260px;
 }
 
 @media screen and (max-width:750px) {
@@ -318,13 +325,3 @@
         flex-wrap: wrap;
     }
 }
-
-
-
-
-/* 
-@media screen and (max-width:950px) {
-    .card-container {
-        bottom: 50px;
-    }
-} */
