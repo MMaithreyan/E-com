@@ -33,11 +33,14 @@
     height: 100vh;
     width: 100%;
 }
-
+.hero_container{
+    width: 100%;
+    height: 100%;
+}
 .hero {
     position: absolute;
-    width: 100vw;
-    height: 130vh;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -61,7 +64,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    bottom: 0;
+    bottom: 80px;
 }
 
 .springs p {
@@ -124,6 +127,7 @@
 .card img {
     width: 100%;
     height: 340px;
+    object-fit: cover;
 }
 
 .card-body {
@@ -136,8 +140,9 @@
 }
 
 .card-body button {
-    width: 40%;
+    width: 189px;
     background: none;
+    height: 44px;
     border: 2px solid white;
     cursor: pointer;
     color: white;
@@ -250,7 +255,9 @@
 
 .calls {
     display: flex;
-    width: 100%;
+    width: 80%;
+    margin: auto;
+    border-bottom: 3px solid #CCCCCC;
     height: fit-content;
     justify-content: space-evenly;
 }
@@ -334,25 +341,17 @@
 }
 
 .power {
-    margin-bottom: 50px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 100px;
     font-family: 'light';
     font-size: 13px;
     line-height: 14px;
     font-weight: 400;
     letter-spacing: 0.23px;
-
+    border-top: 3px solid #CCCCCC;
 }
 
-.shopify {
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-.fotter_hr {
-    position: absolute;
-    width: 66%;
-    left: 214px;
-}
 
 @media screen and (max-width:750px) {
     .calls {
