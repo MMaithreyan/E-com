@@ -76,6 +76,7 @@
     color: white;
     position: relative;
     top: 10px;
+    margin: 0 20px 20px 20px;
 }
 
 .springs h5 {
@@ -87,12 +88,6 @@
     font-weight: 700;
     bottom: 30px;
 }
-
-.springs i {
-    margin-left: 15px;
-    font-size: 20px;
-}
-
 .springs button {
     width: 261px;
     height: 50px;
@@ -116,7 +111,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    top: 100px;
+    bottom: 70px;
 }
 
 .card {
@@ -177,7 +172,7 @@
     position: relative;
     width: 100%;
     font-family: "bold";
-    top: 100px;
+  bottom: 30px;
 }
 
 .Featured_Products h2 {
@@ -236,12 +231,12 @@
     background-color: #f6f6f6;
     color: #4f4f4f;
     margin: auto;
-    top: 170px;
+    bottom: 0px;
 }
 
 .fotter_container {
     margin: auto;
-    width: 80vw;
+    width: 90%;
 }
 
 .contact p {
@@ -269,6 +264,7 @@
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.2px;
+    margin: 0 10px 0 10px;
 }
 
 .grid {
@@ -368,6 +364,18 @@
     .three{
         margin-top: 0;
     }
+}
+@media screen and (max-width:600px) {
+    .springs h5{
+        font-size: 7vw;
+    }
+    
+}
+@media screen and (max-width:450px) {
+    .springs h5{
+        font-size: 7vw;
+    }
+    
 }
 @media screen and (max-width:900px) {
     .springs p{
