@@ -6,13 +6,21 @@
 @font-face {
     font-family: 'myfont';
     src: url('./fonts/helvetica.ttf');
-    font-weight: normal;
-    font-style: normal;
 }
 
 @font-face {
     font-family: "bold";
     src: url('./fonts/Helvetica-Bold.ttf');
+}
+
+@font-face {
+    font-family: "light";
+    src: url("./fonts/HelveticaLt.ttf");
+}
+
+@font-face {
+    font-family: "regular";
+    src: url(./fonts/Helvetica_regular.ttf);
 }
 
 * {
@@ -22,14 +30,17 @@
 }
 
 .container {
-    position: relative;
+    height: 100vh;
     width: 100%;
 }
-.hero{
+
+.hero {
     position: absolute;
     width: 100vw;
-    height: 100vh;
+    height: 107vh;
+    object-fit: cover;
 }
+
 .items {
     position: absolute;
     width: 100%;
@@ -46,11 +57,11 @@
 
 .springs {
     position: absolute;
-    width: 100%;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
-    top: 270px;
+    bottom: 0;
 }
 
 .springs p {
@@ -63,17 +74,19 @@
 
 }
 
-.springs h2 {
-    font-family: 'myfont';
+.springs h5 {
+    font-family: 'bold';
     color: white;
-    font-size: 5vw;
+    font-size: 3vw;
     line-height: 41px;
     font-weight: 700;
 }
 
 .springs button {
     width: fit-content;
-    height: 50px;
+    font-family: 'bold';
+
+    height: auto;
     text-transform: capitalize;
     border: 2px solid white;
     cursor: pointer;
@@ -81,9 +94,8 @@
     background: black;
     font-weight: bold;
     font-size: 2vw;
-    margin-top: 10px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 10px;
+    margin-top: 7px;
 }
 
 .card-container {
@@ -92,7 +104,6 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    top: 700px;
 }
 
 .card {
@@ -123,7 +134,6 @@
     cursor: pointer;
     color: white;
     background: rgba(0, 0, 0, 0.349);
-    font-family: 'myfont';
     font-weight: bold;
     font-size: large;
     margin-top: 10px;
@@ -137,13 +147,29 @@
 
 }
 
+.Featured_Products {
+    margin: auto;
+    width: 60vw;
+    font-family: "bold";
+    padding: 20px;
+}
+
 .products {
     width: 100%;
     height: fit-content;
     display: flex;
+    position: relative;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+}
+
+.products p {
+    font-family: "bold";
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+    padding: 20px;
 }
 
 .bag {
@@ -151,7 +177,6 @@
     width: auto;
     text-align: center;
     font-family: 'myfont';
-    display: flex;
     flex-direction: column;
     align-items: center;
 }
@@ -174,11 +199,18 @@
     margin: auto;
 }
 
+.fotter_comtainer {
+    margin: auto;
+    width: 80vw;
+}
+
 .contact p {
     text-align: center;
-    font-family: 'myfont';
-    font-size: large;
-    font-weight: 900;
+    font-family: 'light';
+    font-weight: 300;
+    font-size: 24px;
+    letter-spacing: 0.43px;
+    line-height: 28px;
 }
 
 .calls {
@@ -188,8 +220,12 @@
     justify-content: space-evenly;
 }
 
-.calls h3 {
-    font-family: 'myfont';
+.calls p {
+    font-family: 'bold';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
 }
 
 .grid {
@@ -198,34 +234,64 @@
     display: flex;
     margin-left: 10%;
     margin-right: 10%;
-
 }
 
 .one {
-    font-family: 'myfont';
+    width: 30vw;
+    font-family: "regular";
     font-weight: 500;
-    font-size: large;
     line-height: 1.6;
     margin-right: 40px;
     color: #444444;
     flex-grow: 2;
 }
 
-.two {}
-
 .two h3 {
-    font-family: 'myfont';
-    font-weight: 500;
-    font-size: large;
-    line-height: 1.6;
+    font-family: regular;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
     margin-right: 40px;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.315);
     color: #444444;
 }
 
-.three {}
-
 .two p {
-    font-family: 'myfont';
+    font-family: "regular";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 15px;
+    color: #444444;
+    padding-top: 15px;
+    padding-bottom: 1px;
+}
+
+.menu {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.32px;
+    color: #444444;
+}
+
+.menu_list {
+    padding: 5px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000;
+}
+
+.three {
+
+    display: flex;
+    font-size: xx-large;
+    align-items: center;
+    letter-spacing: 15px;
+    align-items: flex-start;
+    margin-top: 30px;
 }
 
 .power {
@@ -246,12 +312,19 @@
 
 }
 
+@media screen and (max-width:800px) {
+    .grid {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
 
 
 
 
+/* 
 @media screen and (max-width:950px) {
     .card-container {
         bottom: 50px;
     }
-}
+} */
