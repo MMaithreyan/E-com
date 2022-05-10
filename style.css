@@ -37,7 +37,7 @@
 .hero {
     position: absolute;
     width: 100vw;
-    height: 107vh;
+    height: 130vh;
     object-fit: cover;
 }
 
@@ -52,7 +52,7 @@
 }
 
 .items i {
-    font-size: x-large
+    font-size: larger;
 }
 
 .springs {
@@ -67,7 +67,7 @@
 .springs p {
     font-family: 'Didot';
     font-style: italic;
-    font-size: 12vw;
+    font-size: 15vw;
     font-weight: 400;
     letter-spacing: 4px;
     color: white;
@@ -75,27 +75,34 @@
 }
 
 .springs h5 {
-    font-family: 'bold';
+    font-family: bold;
     color: white;
-    font-size: 3vw;
+    font-size: 2.1vw;
     line-height: 41px;
+    position: relative;
     font-weight: 700;
+    bottom: 40px;
+}
+
+.springs i {
+    margin-left: 15px;
+    font-size: 20px;
 }
 
 .springs button {
-    width: fit-content;
-    font-family: 'bold';
-
-    height: auto;
-    text-transform: capitalize;
+    width: 19vw;
+    font-family: 'regular';
     border: 2px solid white;
     cursor: pointer;
     color: white;
     background: black;
-    font-weight: bold;
-    font-size: 2vw;
-    padding: 10px;
-    margin-top: 7px;
+    font-weight: 600;
+    font-size: 1.3vw;
+    padding: 13px;
+    margin-top: 4px;
+}
+.springs button img{
+    padding-left: 10px;
 }
 
 .card-container {
@@ -104,6 +111,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    top: 100px;
 }
 
 .card {
@@ -126,9 +134,7 @@
 }
 
 .card-body button {
-    width: 200px;
-    height: 35px;
-    text-transform: capitalize;
+    width: 40%;
     background: none;
     border: 2px solid white;
     cursor: pointer;
@@ -136,7 +142,20 @@
     background: rgba(0, 0, 0, 0.349);
     font-weight: bold;
     font-size: large;
-    margin-top: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.card-body button img {
+    height: 16px;
+    width: 26px;
+padding-left: 20px;
+    border-radius: 0px;
+
 
 }
 
@@ -144,28 +163,37 @@
     font-family: 'bold';
     font-size: 34px;
     font-weight: bolder;
-
+    margin-bottom: 20px;
 }
 
 .Featured_Products {
-    margin: auto;
-    width: 60vw;
+    position: relative;
+    width: 100%;
     font-family: "bold";
-    padding: 20px;
+    top: 100px;
+}
+
+.Featured_Products h2 {
+    border-bottom: 3px solid #EEEEEE;
+    padding: 10px;
+    padding-top: 30px;
+    width: 70%;
+    margin: auto;
 }
 
 .products {
     width: 100%;
-    height: fit-content;
+    height: 100%;
     display: flex;
     position: relative;
     flex-wrap: wrap;
+    top: 20px;
     align-items: center;
     justify-content: center;
 }
 
 .products p {
-    font-family: "bold";
+    font-family: "regular";
     font-size: 14px;
     line-height: 16px;
     font-weight: 400;
@@ -192,11 +220,16 @@
 
 }
 
+.question {
+    padding: 17px;
+}
+
 .fotter {
     position: relative;
     background-color: #f6f6f6;
     color: #4f4f4f;
     margin: auto;
+    top: 170px;
 }
 
 .fotter_container {
@@ -210,7 +243,7 @@
     font-weight: 300;
     font-size: 24px;
     letter-spacing: 0.43px;
-    line-height: 28px;
+    line-height: 20px;
 }
 
 .calls {
@@ -294,15 +327,29 @@
     margin-top: 30px;
 }
 
+.three img {
+    padding: 12px;
+}
+
 .power {
     margin-bottom: 50px;
-    font-family: "regular";
-   
+    font-family: 'light';
+    font-size: 13px;
+    line-height: 14px;
+    font-weight: 400;
+    letter-spacing: 0.23px;
+
 }
-.fotter_hr{
-position: absolute;
-width: 100vw;
-left: 260px;
+
+.shopify {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.fotter_hr {
+    position: absolute;
+    width: 66%;
+    left: 214px;
 }
 
 @media screen and (max-width:750px) {
