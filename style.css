@@ -67,21 +67,22 @@
 .springs p {
     font-family: 'Didot';
     font-style: italic;
-    font-size: 15vw;
+    font-size: 222px;
     font-weight: 400;
     letter-spacing: 4px;
     color: white;
-
+    position: relative;
+    top: 10px;
 }
 
 .springs h5 {
     font-family: bold;
     color: white;
-    font-size: 2.1vw;
+    font-size: 36px;
     line-height: 41px;
     position: relative;
     font-weight: 700;
-    bottom: 40px;
+    bottom: 30px;
 }
 
 .springs i {
@@ -90,18 +91,19 @@
 }
 
 .springs button {
-    width: 19vw;
+    width: 261px;
+    height: 50px;
     font-family: 'regular';
     border: 2px solid white;
     cursor: pointer;
     color: white;
     background: black;
     font-weight: 600;
-    font-size: 1.3vw;
+    font-size: 18px;
     padding: 13px;
-    margin-top: 4px;
 }
-.springs button img{
+
+.springs button img {
     padding-left: 10px;
 }
 
@@ -153,7 +155,7 @@
 .card-body button img {
     height: 16px;
     width: 26px;
-padding-left: 20px;
+    padding-left: 20px;
     border-radius: 0px;
 
 
@@ -370,5 +372,10 @@ padding-left: 20px;
     .grid {
         display: flex;
         flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:900px) {
+    .springs p{
+        font-size: 25vw;
     }
 }
