@@ -256,6 +256,7 @@
 .calls {
     display: flex;
     width: 80%;
+    flex-wrap: wrap;
     margin: auto;
     border-bottom: 3px solid #CCCCCC;
     height: fit-content;
@@ -352,14 +353,6 @@
     border-top: 3px solid #CCCCCC;
 }
 
-
-@media screen and (max-width:750px) {
-    .calls {
-        flex-direction: column;
-        justify-content: flex-start;
-    }
-}
-
 @media screen and (max-width:700px) {
     .card-container {
         bottom: 20px;
@@ -371,6 +364,9 @@
     .grid {
         display: flex;
         flex-wrap: wrap;
+    }
+    .three{
+        margin-top: 0;
     }
 }
 @media screen and (max-width:900px) {
