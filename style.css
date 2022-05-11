@@ -451,7 +451,6 @@
 
 @media screen and (max-width:787px) {
     .Featured_Products {
-        margin-left: 10px;
         margin-right: 10px;
     }
 
@@ -469,13 +468,13 @@
 
     .Featured_Products h2 {
         width: 94%;
-        padding: 30px 0 30px 0px;
+        padding: 30px 0 30px 10px;
         margin: 0%;
     }
 
     .fotter_container {
         width: 100%;
-        margin-bottom: 40px;
+        padding-bottom: 40px;
     }
 
     .two h3 {
