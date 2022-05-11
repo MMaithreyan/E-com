@@ -296,7 +296,7 @@
     font-size: 12px;
     line-height: 18px;
     margin-right: 40px;
-    
+
     color: #444444;
 }
 
@@ -426,20 +426,25 @@
     .springs button img {
         width: 5vw;
     }
-    .Featured_Products{
+
+    .Featured_Products {
         bottom: 60px;
     }
-    .items{
+
+    .items {
         margin-top: 5px;
 
     }
-    .items img{
+
+    .items img {
         width: 12vw;
     }
-    .jacket img{
-  width: 90vw;
+
+    .jacket img {
+        width: 85vw;
     }
-    .switter img{
-        width: 90vw;
+
+    .switter img {
+        width: 85vw;
     }
 }
