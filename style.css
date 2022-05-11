@@ -468,8 +468,9 @@
     }
 
     .Featured_Products h2 {
-        width: 100%;
+        width: 94%;
         padding: 30px 0 30px 20px;
+        margin: 0%;
     }
 
     .fotter_container {
@@ -482,5 +483,8 @@
 
     .menu_list {
         padding: 5px 0 5px 0;
+    }
+    .power{
+   margin-bottom: 0%;
     }
 }
