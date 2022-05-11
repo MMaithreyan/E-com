@@ -448,3 +448,39 @@
         width: 80vw;
     }
 }
+
+@media screen and (max-width:787px) {
+    .Featured_Products {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .shirt {
+        width: 61vw;
+    }
+
+    .bad img {
+        width: 66vw;
+    }
+
+    .switter img {
+        width: 60vw;
+    }
+
+    .Featured_Products h2 {
+        width: 100%;
+        padding: 30px 0 30px 20px;
+    }
+
+    .fotter_container {
+        width: 100%;
+    }
+
+    .two h3 {
+        margin-right: 0;
+    }
+
+    .menu_list {
+        padding: 5px 0 5px 0;
+    }
+}
