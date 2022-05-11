@@ -296,7 +296,7 @@
     font-size: 12px;
     line-height: 18px;
     margin-right: 40px;
-    text-shadow: 1px 1px rgba(0, 0, 0, 0.315);
+    
     color: #444444;
 }
 
@@ -435,5 +435,11 @@
     }
     .items img{
         width: 12vw;
+    }
+    .jacket img{
+  width: 90vw;
+    }
+    .switter img{
+        width: 90vw;
     }
 }
