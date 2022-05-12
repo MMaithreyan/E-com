@@ -189,8 +189,9 @@
 }
 
 .products {
-    width: 100%;
+    width: 90%;
     height: 100%;
+    margin: auto;
     display: flex;
     position: relative;
     flex-wrap: wrap;
@@ -217,9 +218,11 @@
 }
 
 .bag img {
-    width: 42vw;
+    width: 100%;
 }
-
+.shirt{
+    width: 100%;
+}
 .jacket_switter {
     margin: 20px;
     text-align: center;
@@ -258,7 +261,7 @@
     width: 80%;
     flex-wrap: wrap;
     margin: auto;
-    border-bottom: 3px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
     height: fit-content;
     justify-content: space-evenly;
 }
@@ -351,7 +354,7 @@
     line-height: 14px;
     font-weight: 400;
     letter-spacing: 0.23px;
-    border-top: 3px solid #CCCCCC;
+    border-top: 1px solid #CCCCCC;
 }
 
 @media screen and (max-width:700px) {
@@ -439,31 +442,16 @@
     .items img {
         width: 12vw;
     }
-
-    .jacket img {
-        width: 80vw;
-    }
-
-    .switter img {
-        width: 80vw;
-    }
 }
 
+@media screen and (max-width:875px) {
+    .products{
+        width: 59%;
+    }
+}
 @media screen and (max-width:787px) {
     .Featured_Products {
         margin-right: 10px;
-    }
-
-    .shirt {
-        width: 61vw;
-    }
-
-    .bad img {
-        width: 66vw;
-    }
-
-    .switter img {
-        width: 80vw;
     }
 
     .Featured_Products h2 {
@@ -474,7 +462,6 @@
 
     .fotter_container {
         width: 100%;
-        padding-bottom: 40px;
     }
 
     .two h3 {
