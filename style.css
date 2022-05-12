@@ -209,9 +209,8 @@
 }
 
 .bag {
-    width: 85%;
+    width: 100%;
     float: left;
-    width: auto;
     text-align: center;
     font-family: 'myfont';
     flex-direction: column;
