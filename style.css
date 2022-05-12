@@ -209,6 +209,7 @@
 }
 
 .bag {
+    width: 85%;
     float: left;
     width: auto;
     text-align: center;
@@ -218,7 +219,7 @@
 }
 
 .bag img {
-    width: 100%;
+    width: 110%;
 }
 .shirt{
     width: 100%;
