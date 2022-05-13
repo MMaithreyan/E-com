@@ -190,7 +190,6 @@
 
 .products {
     width: 90%;
-    height: 100%;
     margin: auto;
     display: flex;
     position: relative;
@@ -209,8 +208,6 @@
 }
 
 .bag {
-    width: 100%;
-    float: left;
     text-align: center;
     font-family: 'myfont';
     flex-direction: column;
@@ -228,6 +225,9 @@
     text-align: center;
     font-family: 'myfont';
 
+}
+.switter img{
+    width: 100%;
 }
 
 .question {
@@ -446,7 +446,7 @@
 
 @media screen and (max-width:875px) {
     .products{
-        width: 80%;
+        /* width: 100%; */
     }
 }
 @media screen and (max-width:787px) {
@@ -474,4 +474,21 @@
     .power{
    margin-bottom: 0%;
     }
+    .bag img{
+        width: 50%;
+    }
+}
+@media screen and (max-width:490px) {
+    /* .bag{
+        width: 56%;
+    } */
+    .bag img{
+        width: 85%;
+    }
+}
+@media screen and (max-width:400x) {
+    .bag{
+        width: 100%;
+    }
+    
 }
